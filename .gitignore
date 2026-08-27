@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (NEVER shared)
+.venv/
+.venv*/
+venv/
+venv*/
+env/
+env*/
+ENV/
+
+# Exclude Data & Agent directories completely (hosted externally e.g., MediaFire)
+data/
+agent/
+
+# Large model, media, and audio files
+*.gguf
+*.bin
+*.onnx
+*.mp3
+*.wav
+*.mp4
+*.mkv
+
+# Databases & local user data
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Backup directories
+*_backup/
+
+# Build artifacts & Nuitka outputs
+build/
+dist/
+*.build/
+*.dist/
+*.onefile-build/
+
+# IDE & OS specific files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Sensitive data / logs
+*.log
