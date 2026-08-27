@@ -1,4 +1,4 @@
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
+# YakomoDev - https://ko-fi.com/yakomodev
 import tkinter as tk
 from tkinter import ttk, messagebox
 import json
@@ -15,7 +15,7 @@ from settings_screen import SettingsScreen
 from about_screen import AboutScreen
 
 
-# Strict Offline Environment Guard
+# Offline environment guard
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
@@ -28,7 +28,7 @@ def guarded_connect(self, address):
     return _original_connect(self, address)
 socket.socket.connect = guarded_connect
 
-# Application Path Settings (forces execution-relative lookup for Nuitka compilation and cross-platform safety)
+# Application path settings
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(APP_DIR, "data", "missions.db")
 
@@ -45,7 +45,7 @@ except ImportError:
 except Exception:
     pass
 
-# Styling Constants - Loaded dynamically from theme_manager
+# Styling constants
 BG_DARK = tm.BG_DARK
 BG_CARD = tm.BG_CARD
 BG_CARD_HEADER = tm.BG_CARD_HEADER

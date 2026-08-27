@@ -1,9 +1,4 @@
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
-"""
-theme_manager.py — Centralized Theme and Language Manager for Mission Ui.
-Prevents circular imports and manages settings persistence.
-"""
-
+# YakomoDev - https://ko-fi.com/yakomodev
 import os
 import json
 import re
@@ -11,7 +6,7 @@ import re
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 PREFS_PATH = os.path.join(APP_DIR, "data", "prefs.json")
 
-# ── Themes Configuration ──────────────────────────────────────────────────────
+# Themes Configuration
 THEMES = {
     "Neon Dark": {
         "BG_DARK": "#0a0a0c",
@@ -99,7 +94,7 @@ THEMES = {
     }
 }
 
-# ── Dynamic Colors State ──────────────────────────────────────────────────────
+# Dynamic Colors State
 _current_theme = "Neon Dark"
 _current_language = "English"
 
@@ -142,7 +137,7 @@ def apply_theme_colors(theme_name):
 apply_theme_colors(_current_theme)
 
 
-# ── Translation System ────────────────────────────────────────────────────────
+# Translation System
 # English -> key, French -> value, Arabic -> value
 # We shape Arabic using arabic_reshaper & python_bidi to ensure proper connections and RTL.
 LOCALIZATION = {
@@ -1229,7 +1224,7 @@ def shape_for_display(text):
             pass
     return text
 
-# ── Localized date helpers ─────────────────────────────────────────────────
+# Localized date helpers
 
 _DAYS_EN = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
 _DAYS_FR = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]

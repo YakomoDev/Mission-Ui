@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
+# YakomoDev - https://ko-fi.com/yakomodev
 import os
 import sys
 import shutil

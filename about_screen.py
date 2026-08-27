@@ -1,19 +1,10 @@
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
-"""
-about_screen.py — About Page for Mission Ui
-A rich, scrollable About screen accessible from Settings.
-Covers: what the app is, who made it, every feature, every screen and button,
-comparison with other apps, and future roadmap.
-"""
-
+# YakomoDev - https://ko-fi.com/yakomodev
 import tkinter as tk
 from tkinter import ttk
 import webbrowser
 import theme_manager as tm
 
-# ──────────────────────────────────────────────────────────────────────────────
 # Content helpers – builds per-language rich content
-# ──────────────────────────────────────────────────────────────────────────────
 
 def _build_sections():
     lang = tm._current_language
@@ -309,9 +300,7 @@ def _build_sections():
         ]
 
 
-# ──────────────────────────────────────────────────────────────────────────────
 # About Screen class
-# ──────────────────────────────────────────────────────────────────────────────
 
 class AboutScreen(tk.Frame):
     """

@@ -1,10 +1,4 @@
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
-"""
-settings_screen.py — Settings Screen for Mission Ui.
-Allows changing the language (English, French, Arabic) and theme,
-updating colors and labels dynamically.
-"""
-
+# YakomoDev - https://ko-fi.com/yakomodev
 import tkinter as tk
 from tkinter import ttk, messagebox
 import theme_manager as tm

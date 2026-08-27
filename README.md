@@ -47,6 +47,14 @@ python3 setup_agent.py
 python3 app.py
 ```
 
+## 📜 License & Commercial Terms
+
+This project is licensed under the **YakomoDev Non-Commercial License**:
+- ✅ **Free for Personal Use**: Anyone can inspect, run, and use this app for personal, educational, or research purposes.
+- ⛔ **Commercial Use Restricted**: Any commercial use, business integration, or re-selling is strictly prohibited without prior written permission and a licensing/royalty agreement from **YakomoDev**.
+
+See the full [LICENSE](LICENSE) file for complete details.
+
 ---
 
 ## ☕ Support the Developer

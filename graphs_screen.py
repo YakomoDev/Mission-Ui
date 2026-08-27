@@ -1,9 +1,4 @@
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
-"""
-graphs_screen.py — Monthly Graphs Screen for Mission Ui
-Canvas-based chart rendering (no matplotlib required).
-"""
-
+# YakomoDev - https://ko-fi.com/yakomodev
 import tkinter as tk
 from tkinter import messagebox
 import sqlite3
@@ -12,8 +7,6 @@ import os
 import math
 import calendar
 import datetime
-
-# ── Colour Palette (matches app.py) ──────────────────────────────────────────
 import theme_manager as tm
 
 BG_DARK = tm.BG_DARK
@@ -45,7 +38,7 @@ def get_model_path():
             pass
     return os.path.join(agent_dir, "Gemma 3 1B.gguf")
 
-# ── Data helpers ──────────────────────────────────────────────────────────────
+# Data helpers
 
 def compute_day_stars(main_tasks, side_tasks):
     """Return a dict of star stats for one day."""
@@ -199,7 +192,7 @@ def save_monthly_comment(year, month, comment):
         print(f"[graphs] save comment error: {e}")
 
 
-# ── Metric key helper ─────────────────────────────────────────────────────────
+# Metric key helper
 
 METRIC_KEYS = {
     # (scope, mode) → stats_dict key
@@ -234,7 +227,7 @@ METRIC_KEYS = {
 # METRIC_LABELS deleted as translations are dynamic now
 
 
-# ── GraphsScreen ──────────────────────────────────────────────────────────────
+# GraphsScreen
 
 class GraphsScreen(tk.Frame):
     def __init__(self, parent):

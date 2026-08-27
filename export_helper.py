@@ -1,11 +1,11 @@
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
+# YakomoDev - https://ko-fi.com/yakomodev
 import os
 import math
 import datetime
 from PIL import Image, ImageDraw, ImageFont
 import theme_manager as tm
 
-# Styling Constants
+# Styling constants
 BLUE = (0, 51, 204)       # Medium blue ink color
 GREEN = (34, 139, 34)     # Forest green for the Note badge background
 WHITE = (255, 255, 255)

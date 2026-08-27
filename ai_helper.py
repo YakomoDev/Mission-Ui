@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Prepared with love by YakomoDev - https://ko-fi.com/yakomodev
+# YakomoDev - https://ko-fi.com/yakomodev
 import os
 import json
 import datetime
@@ -8,7 +8,7 @@ import subprocess
 import socket
 import sqlite3
 
-# Strict Offline Environment Guard
+# Offline environment guard
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
