@@ -10,8 +10,9 @@ Prepared with ❤️ by **[YakomoDev](https://ko-fi.com/yakomodev)**
 
 - 🛡️ **100% Offline & Private**: Runs completely locally without sending data to external APIs.
 - 🤖 **Integrated Local AI**: Powered by Gemma 3 1B LLM for intelligent commentary and productivity insights.
+- 📄 **Real Paper Sheet Exports**: Export memos, task sheets, and user data formatted in realistic, printable paper sheet layouts.
+- 📊 **Analytics & Graph Exporting**: Track visual progress backed by SQLite and export charts, graphs, and task statistics.
 - 🎨 **Custom Theme Engine**: Built-in dynamic theme manager supporting dark, light, and custom color modes.
-- 📊 **Analytics & Graphs**: Visual progress tracking backed by a local SQLite database.
 - ⚡ **Standalone Executable Ready**: Includes optimized Nuitka compilation scripts (`compile_nuitka.sh`).
 
 ---
