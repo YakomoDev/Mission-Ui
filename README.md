@@ -23,7 +23,36 @@ To keep the source code repository lightweight and fast to clone, the external d
 
 - **📥 MediaFire Data & Agent Assets Download**: [Download Data & Agent Assets](https://www.mediafire.com/folder/bq23c5xg65wcg/Mission+Ui+data+and+agent+repo)
 
-> **Instructions**: Extract the downloaded assets package so that the `data/` and `agent/` directories are placed in the root folder of this project.
+> **Instructions**: Extract the downloaded assets package so that the `data/` and `agent/` directories are placed directly in the root folder of this project as shown in the project structure below.
+
+---
+
+## 📁 Project Structure
+
+```text
+Mission-Ui/
+├── app.py               # Main application entry point & UI controller
+├── ai_helper.py         # Offline LLM inference module (Gemma 3 1B)
+├── setup_agent.py       # Automated virtual environment & dependency setup script
+├── theme_manager.py     # Centralized theme & localization manager (EN, FR, AR)
+├── graphs_screen.py     # Canvas-based analytics and graphing module
+├── export_helper.py     # Paper sheet & graph export generator
+├── settings_screen.py   # App settings & preferences interface
+├── about_screen.py      # App documentation & about interface
+├── compile_nuitka.sh    # Nuitka build script for standalone binary compilation for linux
+├── LICENSE              # YakomoDev Non-Commercial License
+├── README.md            # Project documentation
+│
+├── data/                # [From MediaFire] UI assets, icons, fonts & SQLite database
+│   ├── azkar.json
+│   ├── fonts/
+│   ├── icone/
+│   ├── quran_pages/
+│   └── missions.db
+│
+└── agent/               # [From MediaFire] Local AI model weights
+    └── Gemma 3 1B.gguf
+```
 
 ---
 
