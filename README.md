@@ -17,7 +17,16 @@ Prepared with ❤️ by **[YakomoDev](https://ko-fi.com/yakomodev)**
 
 ---
 
-## 📦 Download Data & AI Agent Assets
+## ⚡ Download Ready-to-Run App (No Python Required)
+
+For users who want to run **Mission UI** immediately without setting up Python or virtual environments:
+
+- 🐧 **Linux Executable (.zip)**: [Download Mission UI for Linux](https://www.mediafire.com/file/afmg3ye3rovgha7/Mission_Ui_linux.zip/file)
+- 🪟 **Windows Executable (.zip)**: [Download Mission UI for Windows](https://www.mediafire.com/file/itjpfjqzvh7v2yk/Mission_Ui_Windows.zip/file)
+
+---
+
+## 📦 Download Data & AI Agent Assets (For Source Code)
 
 To keep the source code repository lightweight and fast to clone, the external data files and AI model weights are hosted externally:
 
